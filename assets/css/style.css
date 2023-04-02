@@ -1,0 +1,145 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbdbdb;
+  margin: 0;
+  padding: 0 40px;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-left ul li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  background-color: black;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+form {
+  width: 350px;
+  margin: 50px auto;
+}
+
+form div {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: rgb(162, 157, 171);
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 8 20px;
+  border: none;
+  border-radius: 15px;
+  float: right;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.left {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.left a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-left: 70px;
+  /* background-color: red; */
+}
+.card {
+  margin: auto;
+  width: 70%;
+  height: 500px;
+}
+.content {
+  margin-top: 80px;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+}
+
+.left p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.card-photo {
+}
